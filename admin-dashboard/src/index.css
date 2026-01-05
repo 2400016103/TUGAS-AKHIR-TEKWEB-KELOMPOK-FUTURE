@@ -1,0 +1,90 @@
+body {
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+  background-color: #fef9c3;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #38bdf8, #f472b6);
+  color: white;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+.form-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-card button {
+  width: 100%;
+  background: #22c55e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background: #16a34a;
+}
+
+/* TABLE */
+.table-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #fde68a;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* BUTTON */
+.btn-edit {
+  background: #60a5fa;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
